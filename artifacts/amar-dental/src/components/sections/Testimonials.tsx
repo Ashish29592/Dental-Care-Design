@@ -153,7 +153,7 @@ export function Testimonials() {
           className="text-center mt-12"
         >
           <a
-            href="https://www.google.com/maps/search/Amar+Dental+Clinic"
+            href="https://share.google/3gNXtuIAQpV7noEBj"
             target="_blank"
             rel="noreferrer"
             className="inline-flex items-center gap-2 bg-white border border-slate-200 text-slate-700 font-semibold px-6 py-3 rounded-xl hover:border-primary hover:text-primary transition-colors shadow-sm"
