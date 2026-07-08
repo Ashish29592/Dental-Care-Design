@@ -8,6 +8,7 @@ import { Gallery } from '@/components/sections/Gallery';
 import { BeforeAfter } from '@/components/sections/BeforeAfter';
 import { Doctors } from '@/components/sections/Doctors';
 import { Testimonials } from '@/components/sections/Testimonials';
+import { WriteReview } from '@/components/sections/WriteReview';
 import { FAQ } from '@/components/sections/FAQ';
 import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/sections/Footer';
@@ -26,6 +27,7 @@ export default function Home() {
       <BeforeAfter />
       <Doctors />
       <Testimonials />
+      <WriteReview />
       <FAQ />
       <Contact />
       <Footer />
