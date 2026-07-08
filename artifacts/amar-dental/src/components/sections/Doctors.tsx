@@ -8,8 +8,8 @@ const doctors = [
   {
     name: "Dr. Avinash Singh",
     qual: "BDS, MDS",
-    exp: "10+ Years Experience",
-    spec: "Lead dentist at Amar Dental Clinic. Specialist in root canal treatment, dental implants, and cosmetic dentistry. Known for calm, patient-first care.",
+    exp: "18+ Years Experience",
+    spec: "Lead dentist at Amar Dental Clinic. Specialist in root canal treatment, dental implants, and cosmetic dentistry. Praised by patients for being calm, humble, and hardworking — always putting patient comfort first.",
     img: doc1
   },
   {

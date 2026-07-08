@@ -14,7 +14,7 @@ export function FloatingButtons() {
         <Tooltip>
           <TooltipTrigger asChild>
             <motion.a
-              href="tel:+919876543210"
+              href="tel:+919654108374"
               initial={{ scale: 0 }}
               animate={{ scale: 1 }}
               transition={{ delay: 1, type: "spring", stiffness: 200, damping: 20 }}
@@ -31,7 +31,7 @@ export function FloatingButtons() {
         <Tooltip>
           <TooltipTrigger asChild>
             <motion.a
-              href="https://wa.me/919876543210"
+              href="https://wa.me/919654108374"
               target="_blank"
               rel="noreferrer"
               initial={{ scale: 0 }}

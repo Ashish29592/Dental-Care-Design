@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
-import { Phone, Mail, MapPin, Map, MessageSquare } from 'lucide-react';
+import { Phone, Mail, MapPin, MessageSquare } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 
 import {
@@ -199,23 +199,23 @@ export function Contact() {
             <div className="bg-white p-8 rounded-3xl shadow-sm border border-slate-100 flex flex-col gap-6">
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Contact Information</h3>
               
-              <a href="tel:+919876543210" className="flex items-start gap-4 group">
+              <a href="tel:+919654108374" className="flex items-start gap-4 group">
                 <div className="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors shrink-0">
                   <Phone className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-slate-500 mb-1">Call Us</p>
-                  <p className="text-lg font-bold text-slate-900">+91 98765 43210</p>
+                  <p className="text-lg font-bold text-slate-900">+91 09654 108374</p>
                 </div>
               </a>
 
-              <a href="https://wa.me/919876543210" target="_blank" rel="noreferrer" className="flex items-start gap-4 group">
+              <a href="https://wa.me/919654108374" target="_blank" rel="noreferrer" className="flex items-start gap-4 group">
                 <div className="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center group-hover:bg-emerald-600 group-hover:text-white transition-colors shrink-0">
                   <MessageSquare className="w-6 h-6" />
                 </div>
                 <div>
                   <p className="text-sm font-semibold text-slate-500 mb-1">WhatsApp</p>
-                  <p className="text-lg font-bold text-slate-900">+91 98765 43210</p>
+                  <p className="text-lg font-bold text-slate-900">+91 09654 108374</p>
                 </div>
               </a>
 
@@ -236,22 +236,27 @@ export function Contact() {
                 <div>
                   <p className="text-sm font-semibold text-slate-500 mb-1">Location</p>
                   <p className="text-base font-medium text-slate-900 leading-relaxed">
-                    Near Main Market, City, State, India — 4XX XXX
+                    Shop No. 7, Arshia Apartments, Matiala Rd,<br />
+                    Kiran Garden, Uttam Nagar, Delhi — 110059<br />
+                    <span className="text-slate-500 text-sm">Opp. Dhingra Honda Service Centre</span>
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="bg-slate-200 rounded-3xl overflow-hidden aspect-video relative flex items-center justify-center group cursor-pointer">
-              <div className="absolute inset-0 bg-blue-900/10 mix-blend-multiply"></div>
-              <div className="absolute inset-0 bg-[url('https://maps.googleapis.com/maps/api/staticmap?center=India&zoom=13&size=600x300&maptype=roadmap&sensor=false')] bg-cover bg-center opacity-40 grayscale"></div>
-              
-              <div className="relative z-10 flex flex-col items-center bg-white/90 backdrop-blur-sm p-6 rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform">
-                <Map className="w-10 h-10 text-primary mb-3" />
-                <h4 className="font-bold text-slate-900 text-lg">Google Maps</h4>
-                <p className="text-sm text-slate-600 font-medium">Click to view location</p>
-              </div>
+            {/* Google Maps Embed */}
+            <div className="rounded-3xl overflow-hidden aspect-video relative shadow-sm border border-slate-100">
+              <iframe
+                title="Amar Dental Clinic Location"
+                src="https://maps.google.com/maps?q=AMAR+DENTAL+CLINIC+Shop+No+7+Arshia+Apartments+Matiala+Road+Kiran+Garden+Uttam+Nagar+Delhi+110059&output=embed"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="absolute inset-0 w-full h-full"
+              />
             </div>
           </motion.div>
         </div>

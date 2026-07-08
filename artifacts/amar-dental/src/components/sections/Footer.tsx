@@ -75,7 +75,7 @@ export function Footer() {
             <ul className="flex flex-col gap-4">
               <li className="flex flex-col">
                 <span className="text-slate-500 text-xs font-bold uppercase tracking-wider mb-1">Phone</span>
-                <a href="tel:+919876543210" className="text-white hover:text-teal-400 transition-colors">+91 98765 43210</a>
+                <a href="tel:+919654108374" className="text-white hover:text-teal-400 transition-colors">+91 09654 108374</a>
               </li>
               <li className="flex flex-col">
                 <span className="text-slate-500 text-xs font-bold uppercase tracking-wider mb-1">Email</span>
@@ -83,7 +83,7 @@ export function Footer() {
               </li>
               <li className="flex flex-col">
                 <span className="text-slate-500 text-xs font-bold uppercase tracking-wider mb-1">Address</span>
-                <span className="text-white">Near Main Market, City, State, India — 4XX XXX</span>
+                <span className="text-white">Shop No. 7, Arshia Apartments, Matiala Rd, Kiran Garden, Uttam Nagar, Delhi — 110059</span>
               </li>
               <li className="flex flex-col">
                 <span className="text-slate-500 text-xs font-bold uppercase tracking-wider mb-1">Hours</span>
