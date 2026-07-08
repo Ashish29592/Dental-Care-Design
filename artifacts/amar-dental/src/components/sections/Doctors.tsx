@@ -6,24 +6,24 @@ import doc3 from '@assets/generated_images/doc-3.jpg';
 
 const doctors = [
   {
-    name: "Dr. Amar Kumar",
-    qual: "BDS, MDS (Orthodontics)",
+    name: "Dr. Avinash Singh",
+    qual: "BDS, MDS",
     exp: "10+ Years Experience",
-    spec: "Specialist in orthodontics, dental implants, and cosmetic dentistry.",
+    spec: "Lead dentist at Amar Dental Clinic. Specialist in root canal treatment, dental implants, and cosmetic dentistry. Known for calm, patient-first care.",
     img: doc1
   },
   {
     name: "Dr. Priya Sharma",
     qual: "BDS",
     exp: "7+ Years Experience",
-    spec: "Expert in root canal treatment, children's dentistry, and preventive care.",
+    spec: "Expert in children's dentistry, preventive care, and teeth cleaning. Gentle approach for patients of all ages.",
     img: doc2
   },
   {
     name: "Dr. Rohan Mehta",
     qual: "BDS, MDS (Oral Surgery)",
     exp: "8+ Years Experience",
-    spec: "Specialist in oral surgery, tooth extraction, and facial aesthetics.",
+    spec: "Specialist in oral surgery, wisdom tooth extraction, and dental prosthetics. Trained in advanced surgical techniques.",
     img: doc3
   }
 ];
